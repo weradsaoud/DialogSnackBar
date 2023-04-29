@@ -1,0 +1,24 @@
+.btns-contaner {
+  margin-bottom: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding: 50px;
+  width: 50%;
+}
+
+.infoBtn {
+  background-color: #0dcaf0 !important;
+}
+
+.successBtn {
+  background-color: #198754 !important;
+}
+
+.warningBtn {
+  background-color: #ffc107 !important;
+}
+
+.errorBtn {
+  background-color: #dc3545 !important;
+}

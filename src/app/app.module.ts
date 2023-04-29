@@ -9,16 +9,22 @@ import { MatIconModule } from "@angular/material/icon";
 import { MatButtonModule } from "@angular/material/button";
 import { MatToolbarModule } from "@angular/material/toolbar";
 import { DialogComponent } from './dialogs/dialog/dialog.component';
-
+import { SnackbarComponent } from './snackbar/snackbar.component';
+import {
+  MatSnackBarModule,
+  MAT_SNACK_BAR_DEFAULT_OPTIONS,
+} from '@angular/material/snack-bar';
 @NgModule({
   declarations: [
     AppComponent,
-    DialogComponent
+    DialogComponent,
+    SnackbarComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     MatDialogModule,
+    MatSnackBarModule,
     MatIconModule,
     MatButtonModule,
     MatToolbarModule

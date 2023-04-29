@@ -1,0 +1,68 @@
+.infoContainer {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.successContainer {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.warningContainer {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.errorContainer {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.infoIcon {
+  color: #0dcaf0;
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+}
+
+.successIcon {
+  color: #198754;
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+}
+
+.warningIcon {
+  color: #ffc107;
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+}
+
+.errorIcon {
+  color: #dc3545;
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+}
+
+
+.infoMsg {
+  color: #0dcaf0;
+}
+
+.successMsg {
+  color: #198754;
+}
+
+.warningMsg {
+  color: #ffc107;
+}
+
+.errorMsg {
+  color: #dc3545;
+}

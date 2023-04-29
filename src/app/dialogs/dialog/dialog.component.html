@@ -1,16 +1,20 @@
-<div class="header">
-  <h2 mat-dialog-title>{{data.title}}</h2>
-  <button mat-icon-button [mat-dialog-close]="false">
-    <mat-icon>close</mat-icon>
-  </button>
-</div>
+<div class="dialog-component-container">
 
-<div mat-dialog-content>
-  <p>{{data.content}}</p>
-</div>
+  <div class="header">
+    <h2 mat-dialog-title>{{data.title}}</h2>
+    <div class="icon-div">
+      <mat-icon [ngClass]="iconClass">{{ icon }}</mat-icon>
+    </div>
+  </div>
 
-<div mat-dialog-actions [align]="'end'">
-  <button mat-raised-button color="primary" [mat-dialog-close]="true">
-    ok
-  </button>
+  <div mat-dialog-content>
+    <p>{{data.content}}</p>
+  </div>
+
+  <div mat-dialog-actions [align]="'center'" class="btn-div">
+    <button mat-raised-button [ngClass]="okBtnClass" [mat-dialog-close]="true">
+      ok
+    </button>
+  </div>
+
 </div>
