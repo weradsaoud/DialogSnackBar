@@ -44,5 +44,7 @@ export class SnackbarComponent {
         : (this.data.type === DialogTypes.info) ? 'info'
           : '';
 
-
+  dismissSnackBar() {
+    this.snackBarRef.dismiss();
+  }
 }

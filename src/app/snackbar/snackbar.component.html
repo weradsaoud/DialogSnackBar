@@ -8,4 +8,10 @@
     <mat-icon [ngClass]="iconClass">{{ icon }}</mat-icon>
   </div>
 
+  <div mat-dialog-actions [align]="'center'" class="btn-div">
+    <button mat-mini-fab class="snack-closeBtn"  (click)="dismissSnackBar()">
+      <mat-icon [ngClass]="iconClass">close</mat-icon>
+    </button>
+  </div>
+
 </div>
