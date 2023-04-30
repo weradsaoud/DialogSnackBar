@@ -41,7 +41,7 @@ export class SnackbarService {
   private openSnack(data: SnackBarData) {
     this.snackBarRef = this.snackBar.openFromComponent(SnackbarComponent, {
       data: data,
-      duration: 2000000
+      duration: 3000
     });
   }
 
